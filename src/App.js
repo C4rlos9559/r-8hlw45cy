@@ -17,7 +17,7 @@ class App extends Component {
           <input
             type="checkbox"
             checked={this.state.ckd}
-            onChange={handleCheckboxChange}
+            onChange={this.handleCheckboxChange}
           />
           Mostrar información importante
         </label>
